@@ -1,0 +1,95 @@
+/* Reset gaya dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #008cff;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#video-section {
+    margin-top: 20px;
+}
+
+video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#greeting-message {
+    font-size: 1.2em;
+    color: #15ff00;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #666;
+}
+
+ /* Gaya dasar untuk desktop */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff1493;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Gaya responsif untuk layar ponsel (max-width 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .slide-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    video, img {
+        width: 100%;
+    }
+
+    .caption {
+        font-size: 1em;
+    }
+
+    .prev, .next {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+img, video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
